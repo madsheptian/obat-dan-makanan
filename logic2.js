@@ -58,17 +58,56 @@
     
 //  }
 
-function angka(data) {
-        let number = data
-        if (number % 2 === 0) {
-            console.log(number + "genap");
-        } else if  (number % 1 === 0) {
-        console.log(number + "ganjil");
-        } else console.log("bukan ganjil genap");
+// function angka(data) {
+//         let number = data
+//         if (number % 2 === 0) {
+//             console.log(number + " genap");
+//         } else if  (number % 1 === 0) {
+//         console.log(number + " ganjil");
+//         } else console.log("bukan ganjil genap");
+//         console.log("Febrian");
+//         // for (let index< array.length; index++) {
+//         //     const element = array[index];
+            
+//         // }
+//     }
+//     angka(7676778079)
 
-        for (let index = 0; index < angka; index++) {
-            // const element = array[index];   
-        }
-    }
-    console.log(angka(20));
+
+    // function cobainAja(inputUser) {
+    //    for (let index = 1; index <= inputUser; index++) {
+    //     // const element = array[index]; 
+    //         console.log(index);
+            
+    //    }
+    // }
+
+    // let tampungFunction = cobainAja(5)
+    // console.log(tampungFunction);
     
+
+
+    /**
+     * 
+     * jadi tolong lu looping dulu didalam function,
+     * inputnya itu sesuai dari parameter
+     */
+
+
+// loopingFucntion(10)
+    
+function dasar(score) {
+
+    for (let index = 1; index <= score; index++) {
+        // const element = array[index];
+        let goal = index
+        if (index % 2 === 0) {
+            console.log(index + "  genap");
+        } else if  (index % 1 === 0) {
+            console.log(index + "  ganjil");
+        } else console.log(index + "invalid input");
+    }
+}
+// console.log(index);
+
+dasar(10)
